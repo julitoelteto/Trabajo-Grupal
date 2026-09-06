@@ -9,7 +9,7 @@ function obtenerEstudiantes() {
  */
 function buscarPorCodigo(codigo) {
     if (!codigo.trim()) {
-        console.warn(" Ingrese un código válido para la búsqueda.");
+        console.warn(" ");
         return null;
     }
 
